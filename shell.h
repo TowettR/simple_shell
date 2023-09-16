@@ -158,12 +158,12 @@ void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
 /* toem_memory.c */
-int bfree(void **);
+int freebuf(void **);
 
 /* toem_atoi.c */
-int interactive(info_t *);
-int _delimiter( char *);
-int alphabetic(int);
+int interactive(info_t *info);
+int _delimiter(char , char *);
+int alphabetic(int );
 int _atoi(char *);
 
 /* toem_errors1.c */

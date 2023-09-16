@@ -26,7 +26,7 @@ char **strtokn(char *str, char *d)
 		return (NULL);
 	for (i = 0, j = 0; j < numwords; j++)
 	{
-		while (_delimiter(str[i], d))_
+		while (_delimiter(str[i], d))
 			i++;
 		k = 0;
 		while (!_delimiter(str[i + k], d) && str[i + k])

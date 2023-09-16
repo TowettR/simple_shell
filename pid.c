@@ -4,7 +4,7 @@
  * main - function that prints process ID
  * Return: Always 0
  */
-int main(void)
+int _pid(void)
 {
 	pid_t mypid;
 

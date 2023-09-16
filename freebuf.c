@@ -1,3 +1,4 @@
+#include "shell.h"
 /**
  * freebuf - Frees a pointer and sets it to NULL
  * @ptr: A pointer to be freed and set to NULL
